@@ -1,0 +1,19 @@
+#firstspan{
+    color:pink;
+}
+
+span{
+    font-size:30px;
+    color:green;
+    cursor:pointer;
+}
+span:hover{
+    font-size:50px;
+        color:red;
+}
+.group{
+    color:yellow;
+}
+#secondspan{
+    color:purple;
+}
