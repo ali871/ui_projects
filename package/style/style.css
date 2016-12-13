@@ -17,3 +17,18 @@ span:hover{
 #secondspan{
     color:purple;
 }
+th{
+    background-color: black;
+    color:white;
+    text-transform: uppercase;
+    cursor:pointer;
+}
+th:hover{
+    background-color: red;
+}
+table,tr,td{
+    /*padding: 10px;
+    margin: auto;*/
+    border:solid 1px;
+    
+}
