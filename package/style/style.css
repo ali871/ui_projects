@@ -32,3 +32,14 @@ table,tr,td{
     border:solid 1px;
     
 }
+#firsthth:hover{
+    background-color:rosybrown;
+        cursor:pionter;
+    font-size:50px;
+}
+th{
+    backface-visibility:visible;
+}
+td{
+    border-color: aqua;
+}

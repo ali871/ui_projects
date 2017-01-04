@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+     <title>FormGet</title>
+     <script type='text/javascript' src='/scripts/process.js'> </script>
+</head>
+    
+    <body>
+    <form name='getfotm'>
+        
+        <table>
+        
+        <tr>
+           <td>firstName</td>
+           <td><input type='text' placeholder="Enter first Name" name='firstName' id='firstName' value=''/></td> 
+        </tr>
+            
+        <tr>
+           <td>Last Name</td>
+           <td><input type='text' placeholder="Enter Last Name" name='Lastname' id='lastName' value=''/></td>
+        </tr>
+            
+        <tr>
+           <td>Address</td>
+           <td><input type='text' placeholder="Enter Address" name='Address' id='Address' value=''/></td>
+        </tr>
+            
+        <tr>    
+           <td>Password</td>    
+           <td><input type='text' placeholder="Enter Password" name='Password' id='Password' value=''/></td>
+        </tr>
+            
+        <tr> 
+           <td> Gender  </td>
+           <td> 
+              <input type="radio" name="gender" value="male" id="genMale">Male
+              <input type="radio" name="gender" value="female" id="genfemale">female
+              <input type="radio" name="other" value="other" id="other">other
+           </td>             
+        </tr>
+            
+        <tr> 
+           <td> Cars </td>
+            
+            <td> 
+            <input type="checkbox" name="toyota" value="toyota" id="toyota">toyota
+           <input type="checkbox" name="bmw" value="bmw" id="bmw">bmw
+            <input type="checkbox" name="honda" value="honda" id="honda">honda
+            </td> 
+            <tr>
+            <td> countries </td>
+            <td>
+               <select name="countries" id="countries">   
+                <option value="1">  </option>
+                     <option value="1"> USA </option>
+                     <option value="1"> Morocco </option>
+                     <option value="1"> Syria </option>
+                
+                </tr>
+                </select>
+                
+            </td>
+        </tr>
+            
+        <tr>
+            <td colspan="2" > <input type="submit" onClick='processform()' value="formsubmit"/><td colspan="2" >
+        </td>
+            
+        
+        </table>
+        </form> 
+        
+        <div id="results">
+         result will be displayed here.
+        </div>
+        
+    </body>
+    
+
+</html>

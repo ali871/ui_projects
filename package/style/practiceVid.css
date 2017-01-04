@@ -1,0 +1,30 @@
+h1,h2 {
+    text-decoration: underline;
+  /*  background-color: chartreuse;*/
+   /* border-bottom: 40px solid black;*/
+    /*border: 2px solid black;*/
+}
+/*h1{
+    color:blue;
+}*/
+.gray {
+
+    color:gray;
+    font-size: 25px;
+    /*font-family: helvetica;*/
+}
+/*.underline {
+    text-decoration: underline;*/
+}
+p.purple {
+    color:purple;
+    font-size: 25px;
+    /*font-family: helvetica;*/
+}
+    
+body{
+    color: green;
+    font-family: verdana, arial, geneva, arial black;
+    font-weight: normal;
+    background-color: #ffcf79;
+}
